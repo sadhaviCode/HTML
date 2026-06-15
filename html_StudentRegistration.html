@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+<h1 style="text-align: center;">Job Application Form</h1>
+<form action="#" methtod="post">
+    <fieldset>
+        <legend><b>Personal Details</b></legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" placeholder="Enter Your Full Name" required><br><br>
+
+        <label for="name">Father's Name:</label>
+        <input type="text" name="father's name" placeholder="Enter Father's Name" required><br><br>
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" name="date of birth" placeholder="Enter Your Date of Birth" required><br><br>
+
+        <label for ="gender">Gender:</label>
+        <input  type="radio" name="gender">Male
+        <input type="radio" name="gender">Female<br><br>
+
+        <label for ="tel"> Mobile Number:</label>
+        <input type="tel" name="mobile number" placeholder="Enter Mobile Number" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter Email" required><br><br>
+
+        <label for="Marital Status">Marital Status:</label>
+        <select>
+            <option>Single</option>
+            <option>Married</option>
+            <option>Unmarried</option>
+            <option>Divorced</option>
+            <option>Widowed</option>
+        </select>
+
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><b>Educational Details</b></legend>
+
+        <label for ="marks">10<sup>th</sup> Percentage:</label>
+        <input type="number" name="10 th marks" placeholder="Enter Percentage" required><br><br>
+
+        <label for="marks">12<sup>th</sup>Percentage:</label>
+        <input type="number" name="12 th marks" placeholder="Enter Percentage" required><br><br>
+
+        <label for ="graduation">Graduation:</label>
+        <input type="text" name="graduation" placeholder="Enter Graduation" required><br><br>
+
+        <label for="university">University:</label>
+        <input type="text" name="university" placeholder="Enter University Name" required><br><br>
+
+        <label for="passing year">Passing Year:</label>
+        <input type="number" name="passing year" placeholder="Enter Passing Year" required><br><br>
+
+        <label for="qualification">Additional Qualification:</label>
+        <input type="text" name="additional qualification" placeholder="Enter Qualificatons" required><br><br>
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><b>Experience Details</b></legend>
+
+        <label for ="exerience">Total Experience:</label>
+        <input type="number" name="total experience" placeholder ="Enter Total Experience" required><br><br>
+
+        <label for="company">Current Company:</label>
+        <input type="text" name="current company" placeholder="Enter Company Name" required> <br><br>
+
+        <label for="Designation"></label>Designation:</label>
+        <input type="text" name="designation" placeholder="Enter Designation" required><br><br>
+
+        <label for="salary">Current Salary:</label>
+        <input type="number" name="salary" placeholder="Enter Salary" required><br><br>
+
+        <label for="skills">Skills:</label>
+        <input type="text" name="skills" placeholder="Enter Skills" required><br><br>
+
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><b>Address Deatils:</b></legend>
+
+        <label for="address">Address:</label><br>
+        <textarea name="Address" rows="3" cols="25" placeholder="Enter Address" required></textarea><br><br>
+
+        <label for="city">City:</label>
+        <input type="text" name="city" placeholder="Enter City" required><br><br>
+
+        <label for="state">State:</label>
+        <input type="text" name="state" placeholder="Enter State" required><br><br>
+
+        <label for ="pincode">Pincode:</label>
+        <input type="number" name="pincode" placeholder="Enter Pincode" required><br><br>
+
+        <label for ="country">Country:</label>
+        <input type="text" name="country" placeholder=" Enter Country" required><br><br>
+
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><b>Photo and Signature</b></legend>
+
+        <label for="file">Upload Photo:</label>
+        <input type="file" name="photo" placeholder="Upload Photo" required><br><br>
+
+        <label for="file">Upload Signature:</label>
+        <input type="file" name="sign" placeholder="Upload Signature" required><br><br>
+
+    </fieldset>
+<br>
+    <fieldset>
+        <legend><b>Required Documents</b></legend>
+
+        <label for ="file">Resume/CV:</label>
+        <input type="file" name="resume" required><br><br>
+
+        <label for="file">Aadhar Card:<label>
+        <input type="file" name="aadhar" required><br><br>
+
+        <label for ="pancard">Pan Card:</label>
+        <input type="file" name="pan card" required><br><br>
+
+        <label for ="marksheet">10<sup>th</sup> Marksheet</label>
+        <input type="file" name="marksheet" required><br><br>
+
+        <label for="marksheet">12<sup>th</sup> Marksheet:</label>
+        <input type="file" name="marksheet" required><br><br>
+
+        <label for="certificate">Graduation Certificate:</label>
+        <input type="file" name="certificate" required><br><br>
+
+        <label for="certificate">Experience Certificate:</label>
+        <input type="file" name="certificate" required><br><br>
+
+        <label for="document">Other Documents:</label>
+        <input type="file" name="document" required><br><br>
+
+    </fieldset>
+ <br>
+    <fieldset>
+        <legend><b>Declaration</b></legend>
+
+        <input type="checkbox">I hearby declare that all the information provided above is true and correct to the best of my knowledge.<br><br>
+
+    </fieldset>
+    
+    <br>
+
+    <p style="text-align: center;">
+    <input type="Submit" value="Submit Application" style="background-color: green; color:white;">
+    <input type="reset" value="Reset Form" style="background-color: rgb(224, 75, 75) ; color: aliceblue;">
+    </p>
+    
+
+    Select Color:
+     <input type="color">
+<br>
+    Volume:
+     <input type="range" min="1" max="100">
+<br>
+    Search:
+    <input type="search" placeholder="Enter Keyword"><br>
+    <input type="submit" value="Search">
+
+   </form>
+</body>
+</html>
